@@ -7,7 +7,7 @@
 # If you are not sure, ask your teacher 
 
 can_play_sounds = False
-
+x = 50
 def setup():
     size(800, 200)
     global x
@@ -17,7 +17,7 @@ def setup():
 def draw():
     background(200, 200, 200)
     global x
-    
+    ellipse(x
     # 2. Draw an ellipse of height and width 50. Make sure to use the x variable for
     #    its X position. Pick a y value that places it half way down the window.
     
